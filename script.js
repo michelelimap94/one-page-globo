@@ -4,58 +4,36 @@ const GALLERIES = {
     {
       src: 'portal_interno.png',
       label: 'Interface principal do portal interno',
-      caption: 'Visão das principais interfaces do Portal de Inteligência & Atacado, desenvolvido para centralizar informações, facilitar o acesso a relatórios e apoiar a comunicação entre equipes.'
+      caption: 'Portal web interno desenvolvido para centralizar informações, relatórios e ferramentas utilizadas pela equipe.'
     },
     {
-      src: 'assets/images/mapa.jpg',
-      label: 'Mapa de infraestrutura',
-      caption: 'Visualização de infraestrutura de telecom.'
-    },
-    {
-      src: 'assets/images/mapa-pontos.jpg',
-      label: 'Data Centers e PoPs',
-      caption: 'Detalhes dos Data Centers e PoPs.'
-    },
-    {
-      src: 'assets/images/qgis.jpg',
-      label: 'QGIS',
-      caption: 'Exploração de dados geográficos no QGIS.'
+      src: 'mapa-infraestrutura.png',
+      label: 'Mapa de infraestrutura — Data Centers e PoPs',
+      caption: 'Visualização geográfica integrada ao portal. Utilizo o mapa para consultar informações e sou responsável por manter sua visualização atualizada e funcionando no ambiente web, a partir dos dados fornecidos pela equipe. O mapa não foi desenvolvido por mim.'
     }
   ],
-
   automacao: [
     {
-      src: 'assets/images/automacao.jpg',
-      label: 'Automação Python e MySQL',
-      caption: 'Fluxo de automação de dados.'
+      src: 'automacao-fluxo.png',
+      label: 'Automação de dados — Python e MySQL',
+      caption: 'Fluxo de automação para tratar planilhas Excel, organizar os dados com Python e realizar a carga no banco MySQL.'
     },
     {
-      src: 'assets/images/automacao-codigo.jpg',
-      label: 'Código Python',
-      caption: 'Código de processamento em Python.'
-    },
-    {
-      src: 'assets/images/automacao-dados.jpg',
-      label: 'Dados processados',
-      caption: 'Organização dos dados de entrada.'
-    },
-    {
-      src: 'assets/images/automacao-mysql.jpg',
-      label: 'MySQL',
-      caption: 'Carga e consulta de dados no MySQL.'
+      src: 'automacao-mysql.png',
+      label: 'Dados organizados no MySQL',
+      caption: 'Resultado do processamento: dados estruturados e disponíveis para consulta no banco MySQL.'
     }
   ],
-
   dados: [
     {
       src: 'dashboard-portabilidade.png',
       label: 'Dashboard de portabilidade',
-      caption: 'Painel de indicadores de portabilidade: entradas, saídas, feedbacks e operadoras.'
+      caption: 'Painel que desenvolvi em Power BI para visualizar e acompanhar indicadores de portabilidade, incluindo entradas, saídas e operadoras.'
     },
     {
       src: 'dashboard-isp.png',
       label: 'Dashboard do mercado ISP',
-      caption: 'Painel de estrutura e consolidação do mercado de provedores de internet (ISP).'
+      caption: 'Painel que desenvolvi em Power BI para organizar e apresentar informações sobre a estrutura e a consolidação do mercado de provedores de internet.'
     }
   ]
 };
