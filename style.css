@@ -255,3 +255,10 @@
     font-weight: 800;
     margin-left: 6px;
 }
+
+
+/* Tags com ícones abaixo da apresentação */
+.hero-tags{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:32px}
+.hero-tag{display:inline-flex;align-items:center;gap:9px;padding:10px 16px;border:1px solid #d9b6e9;border-radius:999px;background:#f5e6fa;color:#28142e;font-family:'Manrope',sans-serif;font-size:13px;font-weight:700;line-height:1.2;white-space:nowrap}
+.hero-tag svg{width:18px;height:18px;flex-shrink:0;fill:none;stroke:#7732c2;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:650px){.hero-tags{gap:8px;margin-top:24px}.hero-tag{padding:8px 12px;font-size:12px}.hero-tag svg{width:16px;height:16px}}
