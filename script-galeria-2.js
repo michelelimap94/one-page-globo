@@ -26,12 +26,12 @@ const GALLERIES = {
   ],
   dados: [
     {
-      src: 'dashboard-portabilidade.png',
+      src: 'Dashboard de Portabilidade com Gráficos e Indicadores.png',
       label: 'Dashboard de portabilidade',
       caption: 'Painel que desenvolvi em Power BI para visualizar e acompanhar indicadores de portabilidade, incluindo entradas, saídas e operadoras.'
     },
     {
-      src: 'dashboard-isp.png',
+      src: 'Estrutura e Presença dos ISPs no Brasil.png',
       label: 'Dashboard do mercado ISP',
       caption: 'Painel que desenvolvi em Power BI para organizar e apresentar informações sobre a estrutura e a consolidação do mercado de provedores de internet.'
     }
