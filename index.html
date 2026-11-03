@@ -16,6 +16,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css?v=20261102-hero-tags">
+<style>
+/* Pergunta interativa na seção de propósito */
+.motivation-answer{margin-top:22px;max-width:610px;border:1px solid #b985d8;border-radius:12px;background:#fff8ffbf;box-shadow:5px 5px 0 #ab77cf30;overflow:hidden}
+.motivation-answer>summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:14px;padding:16px 19px;color:#351947;font-family:'Manrope',sans-serif;font-weight:800;font-size:16px;line-height:1.4}
+.motivation-answer>summary::-webkit-details-marker{display:none}
+.motivation-answer>summary::marker{content:""}
+.motivation-answer>summary:hover,.motivation-answer>summary:focus-visible{background:#f2def9}
+.motivation-answer>summary:focus-visible{outline:3px solid #8b41db;outline-offset:-3px}
+.motivation-answer-icon{font-size:23px;color:#8b41db;line-height:1;transition:transform .2s}
+.motivation-answer[open] .motivation-answer-icon{transform:rotate(45deg)}
+.motivation-copy .motivation-answer p{padding:0 19px 19px;margin:0;color:#55435c;font-size:14px;line-height:1.7}
+@media(max-width:650px){.motivation-answer>summary{font-size:14px;padding:14px}.motivation-copy .motivation-answer p{padding:0 14px 15px}}
+</style>
 </head>
 <body>
 <div class="editorial-strip" aria-hidden="true"></div>
@@ -49,7 +62,7 @@
 <section class="sec about" id="quem">
  <div class="wrap">
   <div class="section-head"><span class="section-number">01 | QUEM SOU </span><h2>Como me <em>apresento</em> hoje:</h2></div>
-  <p class="intro">Sou uma profissional multidisciplinar: comecei ensinando informática e hoje atuo com Inteligência de Dados na Vivo, analisando indicadores de telecomunicações. Também desenvolvo soluções web e automações para facilitar processos e o acesso à informação.</p>
+  <p class="intro">Eu me considero uma profissional multidisciplinar porque minha trajetória já passou pelas áreas de educação e comunicação, e hoje estou na área de tecnologia, que é onde venho construindo minha carreira. E aqui separei três pontos para vocês conhecerem um pouquinho melhor essa trajetória.</p>
   <div class="facts" aria-label="Conheça mais sobre minha trajetória">
    <details class="fact"><summary><span class="fact-index">01</span><span class="fact-title">Minha Formação</span><span class="fact-symbol" aria-hidden="true">+</span></summary><div class="fact-detail"><p>Curso Análise e Desenvolvimento de Sistemas na UNINTER, com conclusão prevista para dezembro de 2027. Minha trajetória também inclui estudos na área de Comunicação.</p></div></details>
    <details class="fact"><summary><span class="fact-index">02</span><span class="fact-title">Experiência profissional</span><span class="fact-symbol" aria-hidden="true">+</span></summary><div class="fact-detail"><p>Na Vivo, trabalho com dados, BI e indicadores operacionais. Antes, fui instrutora de informática, experiência que desenvolveu minha didática e comunicação.</p></div></details>
@@ -80,16 +93,10 @@
         soluções que façam diferença na prática.”
       </p>
 
-      <p>
-        Minha experiência com dados e educação me ensinou
-        a olhar tanto para a tecnologia quanto para quem
-        a utiliza. Gosto de aprender, compartilhar
-        conhecimentos e simplificar processos.
-        Na Globo, quero contribuir com essa visão que
-        combina análise, criatividade e comunicação,
-        ajudando a construir soluções acessíveis,
-        confiáveis e pensadas para diferentes públicos.
-      </p>
+      <details class="motivation-answer">
+        <summary>Como eu quero contribuir com a Globo? <span class="motivation-answer-icon" aria-hidden="true">+</span></summary>
+        <p>Quero contribuir identificando necessidades, buscando soluções práticas e compartilhando conhecimentos. Acredito que minha experiência com dados, tecnologia e comunicação pode ajudar a equipe a simplificar processos e desenvolver soluções confiáveis para quem as utiliza.</p>
+      </details>
     </div>
 
   </div>
