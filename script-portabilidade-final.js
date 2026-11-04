@@ -14,14 +14,14 @@ const GALLERIES = {
   ],
   automacao: [
     {
-      src: 'automacao-fluxo-demo.svg?v=20261103-ods',
+      src: 'automacao-fluxo-demo.svg?v=20261104-xlsb-real',
       label: 'Fluxo demonstrativo — Python e MySQL',
-      caption: 'Exemplo demonstrativo com dados fictícios: leitura de planilhas Excel/CSV, padronização, validação e carga no MySQL. Não contém informações internas da Vivo.'
+      caption: 'Fluxo demonstrativo fiel às etapas do projeto: conversão de arquivos .xlsb para .xlsx, identificação da aba DEMONSTRATIVO e do cabeçalho, limpeza, padronização, tratamento de datas e valores, validação e carga no MySQL. Sem dados internos.'
     },
     {
-      src: 'automacao-codigo-demo.svg?v=20261103-ods',
+      src: 'automacao-codigo-demo.svg?v=20261104-xlsb-real',
       label: 'Trecho demonstrativo de código Python',
-      caption: 'Código didático simplificado para ilustrar a lógica da automação. Não é o código original da empresa e a conexão exibida é apenas ilustrativa.'
+      caption: 'Pseudocódigo ilustrativo baseado nas etapas do script real, com nomes genéricos e sem credenciais ou regras internas. Não é o código executável da empresa.'
     }
   ],
   dados: [
