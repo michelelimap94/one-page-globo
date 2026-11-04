@@ -7,7 +7,7 @@ const GALLERIES = {
       caption: 'Portal web interno desenvolvido para centralizar informações, relatórios e ferramentas utilizadas pela equipe.'
     },
     {
-      src: 'mapa-infraestrutura.png',
+      src: 'mapa_infra.jpg?v=20261104',
       label: 'Mapa de infraestrutura — Data Centers e PoPs',
       caption: 'Visualização geográfica integrada ao portal. Utilizo o mapa para consultar informações e sou responsável por manter sua visualização atualizada e funcionando no ambiente web, a partir dos dados fornecidos pela equipe. O mapa não foi desenvolvido por mim.'
     }
