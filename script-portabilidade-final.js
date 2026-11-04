@@ -14,14 +14,14 @@ const GALLERIES = {
   ],
   automacao: [
     {
-      src: 'automacao-fluxo.png',
-      label: 'Automação de dados — Python e MySQL',
-      caption: 'Fluxo de automação para tratar planilhas Excel, organizar os dados com Python e realizar a carga no banco MySQL.'
+      src: 'automacao-fluxo-demo.svg',
+      label: 'Fluxo demonstrativo — Python e MySQL',
+      caption: 'Exemplo demonstrativo com dados fictícios: leitura de planilhas Excel/CSV, padronização, validação e carga no MySQL. Não contém informações internas da Vivo.'
     },
     {
-      src: 'automacao-mysql.png',
-      label: 'Dados organizados no MySQL',
-      caption: 'Resultado do processamento: dados estruturados e disponíveis para consulta no banco MySQL.'
+      src: 'automacao-codigo-demo.svg',
+      label: 'Trecho demonstrativo de código Python',
+      caption: 'Código didático simplificado para ilustrar a lógica da automação. Não é o código original da empresa e a conexão exibida é apenas ilustrativa.'
     }
   ],
   dados: [
