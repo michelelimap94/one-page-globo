@@ -14,12 +14,12 @@ const GALLERIES = {
   ],
   automacao: [
     {
-      src: 'automacao-fluxo-demo.svg',
+      src: 'automacao-fluxo-demo.svg?v=20261103-ods',
       label: 'Fluxo demonstrativo — Python e MySQL',
       caption: 'Exemplo demonstrativo com dados fictícios: leitura de planilhas Excel/CSV, padronização, validação e carga no MySQL. Não contém informações internas da Vivo.'
     },
     {
-      src: 'automacao-codigo-demo.svg',
+      src: 'automacao-codigo-demo.svg?v=20261103-ods',
       label: 'Trecho demonstrativo de código Python',
       caption: 'Código didático simplificado para ilustrar a lógica da automação. Não é o código original da empresa e a conexão exibida é apenas ilustrativa.'
     }
